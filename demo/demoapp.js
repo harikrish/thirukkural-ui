@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components'
 import { layout, flexbox, space, color } from 'styled-system'
-import TableOfContents from "./components/tableofcontents/tableofcontents";
-import KuralsPage from './components/kuralspage/kuralspage';
+import TableOfContents from "../src/components/tableofcontents/tableofcontents";
+import KuralsPage from '../src/components/kuralspage/kuralspage';
 
 const FlexContainer = styled.div(
     {

@@ -1,8 +1,7 @@
-import ReactDOM from 'react-dom'
-import React from 'react'
-import DemoApp from './demoapp'
+import TableOfContents from "./components/tableofcontents/tableofcontents";
+import KuralsPage from './components/kuralspage/kuralspage';
 
-const wrapper = document.getElementById("container")
-wrapper ? ReactDOM.render(
-<DemoApp/>, 
-wrapper) : false
+export {
+    TableOfContents,
+    KuralsPage
+}
